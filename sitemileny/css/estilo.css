@@ -15,13 +15,17 @@ p{
 	font-family: "Dancing+Script", cursive;
 }
 
+.container{
+	width: 100%;
+}
+
 /*Cabeçalho ou barra de navegação*/
 
 nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #EE82EE;
+	background-color: #DA70D6;
 	padding: 30px;
 }
 
@@ -47,7 +51,25 @@ nav ul li a {
 	padding: 10px 0;
 	width: 100px;
 	text-decoration: none;
-	color: #000000;
+	color: #ffffff;
+}
+/*Header*/
+header{
+	background-image: url('../img/banner10.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+header p{ 
+	margin-bottom: 2em;
+	font-size: 1.7;
 }
 
 @media screen and (min-width: 768px){
@@ -55,10 +77,70 @@ nav ul li a {
 nav{
 	flex-direction: row;
 	justify-content: space-around;
-
 }
+.botao{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #DA70D6;
+	font-size: .9em;
+	border-radius: 30%;
+}
+/*Sobre*/
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #DA70D6;
+	color: #ffffff;
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+.foto img{
+	width: 60%;
+}
+
+.foto{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: right;
+	width: 50%;
+}
+
 nav ul {
 	flex-direction: row;
 	width: 70%;
 }
+/*Header*/
+header{
+	height: 60vh;
+	justify-content: center;
+}
+
+/*Sobre*/
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#sobre h2{
+	text-align: center;
+	width: 100%;
+}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
+}
+
 }
