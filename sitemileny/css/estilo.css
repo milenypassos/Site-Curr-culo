@@ -146,6 +146,43 @@ nav{
 #especialidades h2 {
 	font-size: 2em;
 }
+/*Competências*/
+
+#competencias {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#competencias h2 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+#competencias h3,p {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias a {
+	text-decoration: none;
+}
+#competencias img {
+	width: 100%;
+	margin-bottom: 0;
+}
+#competencias .comp p {
+	
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
 
 nav ul {
 	flex-direction: row;
@@ -194,6 +231,18 @@ header{
 	flex-grow: 1;
 	flex-basis: 150px;
 	padding: 0 10px;
+}
+#competencias {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#competencias h2, h3 {
+	width: 100%;
+	text-align: center;
+}
+#competencias .comp{
+	width: 33.3333333333%;
+	text-align: center;
 }
 
 }
