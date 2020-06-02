@@ -2,6 +2,7 @@
 body{
 
 	font-family: Pacifico, cursive;
+	background-color: #ffb6c1;
 }
 
 h1, h2, h3 {
@@ -25,7 +26,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #DA70D6;
+	background-color: #ffb6c1;
 	padding: 30px;
 }
 
@@ -55,7 +56,7 @@ nav ul li a {
 }
 /*Header*/
 header{
-	background-image: url('../img/banner10.jpg');
+	background-image: url('../img/banner1.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -83,7 +84,7 @@ nav{
 	color: #000000;
 	text-decoration: none;
 	padding: 10px 30px;
-	background-color: #DA70D6;
+	background-color: #ffb6c1;
 	font-size: .9em;
 	border-radius: 30%;
 }
@@ -93,7 +94,7 @@ nav{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: #DA70D6;
+	background-color: #ffb6c1;
 	color: #000000;
 }
 #sobre h2{
@@ -121,6 +122,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #ffb6c1;
 	position: relative;
 	margin: 0 auto;
 }
@@ -152,6 +154,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #ffb6c1;
 	padding-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -176,12 +179,23 @@ nav{
 	margin-bottom: 0;
 }
 #competencias .comp p {
-	
+
 	margin-top: 0;
 	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
 	padding-right: 15px;
 	padding-left: 15px;
 	line-height: 1.5;
+}
+
+.trab img:hover{
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.trab img{
+	border: 10px groove #000000;
 }
 
 nav ul {
@@ -218,6 +232,7 @@ header{
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	background-color: #ffb6c1;
 	max-width: 1000px;
 	margin: 0 auto;
 }
