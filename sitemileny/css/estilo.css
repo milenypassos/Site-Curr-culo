@@ -198,6 +198,67 @@ nav{
 	border: 10px groove #000000;
 }
 
+/*Hobby*/
+#hobby {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+#hobby h2 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+.hobby{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+.hobby h3 {
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+/*Contato*/
+#contato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%
+}
+#contato h2 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+#contato > p {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	text-align: center;
+}
+#contato a {
+	text-decoration: none;
+	color: #000000;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	text-align: center;
+}
+
+/*Footer*/
+footer {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 nav ul {
 	flex-direction: row;
 	width: 70%;
@@ -259,5 +320,20 @@ header{
 	width: 33.3333333333%;
 	text-align: center;
 }
-
+/*Contato*/
+#contato {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+#contato h2,
+#contato p{
+	width: 100%;
+	text-align: center;
+}
 }
